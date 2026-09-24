@@ -15,3 +15,10 @@ def analyze_preferences(data):
     average_ratings = data.groupby('preference_category')['rating'].mean()
     
     return preference_counts, average_ratings
+
+
+#upload data to output folder
+def upload_analysis_results(preference_counts, average_ratings):
+    # Save the analysis results to CSV files
+    preference_counts.to_csv('data/output/preference_counts.csv', index=True)
+    average_ratings.to_csv('data/output/average_ratings.csv', index=True)

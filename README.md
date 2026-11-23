@@ -4,6 +4,8 @@ Git repos:
 
 What the hell, does this app even do? Lol!
 
+Below is the functionality of the app. However, this service is specifically for the ML part that will analyse preference photos for upcoming recommendations
+
 1. So, we go into a nice and simple pink user interface
 2. you select which Sample Sale you'll be attending
 3. You will input, which types of items you'll be looking for based on what the brand offers
